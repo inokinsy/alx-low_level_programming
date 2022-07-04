@@ -1,7 +1,5 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
 /**
  * main - check if a random number is positive or negative
@@ -10,6 +8,7 @@
 
 	int main(void)
 {
+
 int n;
 int nLast;
 
@@ -24,3 +23,4 @@ else if (nLast < 6 && nLast != 0)
 else
 	printf("Last digit of %d is %d and is 0\n", n, nLast);
 return (0);
+}
