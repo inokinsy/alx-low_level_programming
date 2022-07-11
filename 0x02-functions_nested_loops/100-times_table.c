@@ -8,13 +8,14 @@
 void print(int var)
 {
 if (var / 10)
-print(var / 10);
-_putchar('0' + (var % 10));
+print (var / 10);
+_putchar ('0' + (var % 10));
 }
 
 /**
  *  print_times_table - prints the n times table, starting with 0
  *  @n: time table to print
+ *  Return always 0. (Success)
  */
 
 void print_times_table(int n)
