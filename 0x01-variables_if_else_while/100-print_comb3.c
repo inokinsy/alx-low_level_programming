@@ -10,7 +10,7 @@ int main(void)
 {
 	int num;
 	int num2;
-	
+
 	num = '0';
 	while (num <= '9')
 {
