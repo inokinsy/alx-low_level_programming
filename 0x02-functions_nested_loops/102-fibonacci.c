@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * main - first 50 fibonacci number
+ * Return: 0 if successful
  */
 
 int main(void)
@@ -15,6 +15,7 @@ int ii;
 printf("%lu, %lu, ", n1, n2);
 
 for (ii = 2; ii < nLast; ii++)
+{
 result = n1 + n2;
 n1 = n2;
 n2 = result;
