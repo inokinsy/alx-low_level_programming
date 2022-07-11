@@ -36,7 +36,9 @@ int main(void)
 		}
 		}
 		num2++;
-		}
+	}
+		num++;
+	}
 		putchar('\n');
 		return (0);
 }
