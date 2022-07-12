@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts - print even number of a string
+ * puts2 - print even number of a string
  * @str: string variable
  */
 
