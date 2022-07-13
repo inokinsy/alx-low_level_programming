@@ -1,3 +1,4 @@
+
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
@@ -22,3 +23,4 @@ int add(int, int);
 void print_to_98(int n);
 void print_alphabet(void);
 void print_times_table(int n);
+
