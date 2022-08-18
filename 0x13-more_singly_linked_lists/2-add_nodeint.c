@@ -1,4 +1,4 @@
-nclude "lists.h"
+#include "lists.h"
 
 /**
  *   add_nodeint - add node at the beginning of a list
@@ -8,6 +8,7 @@ nclude "lists.h"
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)
+
 {
 	listint_t *new_node = malloc(sizeof(listint_t));
 
